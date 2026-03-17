@@ -269,3 +269,28 @@
     font-size: 0.78rem;
     color: var(--muted);
   }
+/* ... todo el CSS que ya tienes ... */
+
+}
+
+/* CAJAS DE COMENTARIOS */
+.caja-comentario {
+  background: rgba(176,26,26,0.1);
+  padding: 2rem;
+  border-left: 4px solid var(--red);
+  margin-bottom: 2rem;
+}
+
+.texto-comentario {
+  font-family: 'Courier Prime', monospace;
+  font-size: 1.2rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.firma-comentario {
+  font-family: 'Courier Prime', monospace;
+  color: var(--amber);
+  font-style: italic;
+}
